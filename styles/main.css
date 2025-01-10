@@ -36,7 +36,7 @@
 }
 
 .description{
-  font-weight: 200;
+  font-weight: 300;
   font-size: 16px;
   color: #0E0E0E;
   opacity: 80%;
@@ -235,3 +235,60 @@ header{
 }
 
 /* future end */
+
+/* option start */
+
+.option{
+  width: 100%;
+  height: 490px;
+  margin-bottom: 80px;
+}
+
+.option-head{
+  margin-bottom: 24px;
+}
+
+.options{
+  width: 100%;
+  height: 409px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 16px;
+  padding: 24px 32px;
+}
+
+.options table{
+  width: 100%;
+  height: 340px;
+  border: .5px solid #cdd0d4;
+  border-collapse: collapse;
+}
+
+.options table td{
+  border: .5px solid #cdd0d4;
+  padding: 20px;
+  align-items: center;
+}
+
+.options thead{
+  height: 70px;
+  background-color: #006a5056;
+}
+
+.options thead th{
+  text-align: left;
+  padding: 20px;
+}
+
+.options select{
+  width: 200px;
+  height: 55px;
+  font-weight: 400;
+  font-size: 19px;
+  margin-left: 35px;
+  padding: 0 20px;
+  background-color: #006a5056;
+  border-radius: 5px;
+}
+
+
