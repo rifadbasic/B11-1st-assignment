@@ -11,6 +11,7 @@
   color: #ffffff;
   background-color: #006A50;
   border: none;
+  text-decoration: none;
   border-radius: 8px;
   transition: .3s ease;
 }
@@ -24,24 +25,27 @@
   font-weight: 800;
   font-size: 40px;
   color: #0E0E0E;
+  
 }
 
 .sub-title{
   font-weight: 800;
-  font-size: 32px;
+  font-size: 20px;
   color: #0E0E0E;
+  opacity: 80%;
 }
 
 .description{
   font-weight: 200;
   font-size: 16px;
   color: #0E0E0E;
-  opacity: 70%;
+  opacity: 80%;
 }
 
 /* body */
 body{
   padding: 0 160px;
+  background: #ebedf0;
 }
 
 /* font family */
@@ -52,14 +56,22 @@ body{
 }
 
 /* header */
+
+header{
+  margin-bottom: 80px;
+}
 /* nav start */
 .nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px 0;
+  margin-bottom: 20px;
 }
 
+.logo{
+  font-size: 32px;
+}
 .nav-btn{
   font-family: 600;
   font-size: 18px;
@@ -82,8 +94,9 @@ body{
   width: 100%;
   height: 560px;
   display: flex;
-  gap: 64px;
+  gap: 60px;
   align-items: center;
+  justify-content: space-between;
   padding: 20px 59px;
   background-color: #C6E4D6;
   border: none;
@@ -102,15 +115,123 @@ body{
 
 .hade-title{
   font-weight: 800;
-  font-size: 56px;
-  margin: 10px 0;
+  font-size: 54px;
+  margin: 0 0 20px 0;
 }
 
 .head-btn{
-  margin: 10px 0;
+  margin: 20px 0 0 0;
 }
 
 .head-btn a{
   text-decoration: none;
   padding: 17px 34px;
 }
+
+/* main section */
+
+/* pillars st */
+.pillars{
+  width: 100%;
+  height: 324px;
+  margin-bottom: 80px;
+}
+
+.pillar-tag{
+  padding: 10px 0;
+}
+.pillars-item{
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  padding: 20px 0;
+}
+
+.pillar{
+  width: 302px;
+  height: 244px;
+  padding: 24px;
+  border: .5px solid #cdd0d4;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.pillar img{
+  margin-bottom: 24px;
+}
+
+.pillar-title{
+  margin-bottom: 12px;
+}
+
+/* pillar end */
+
+/* future st */
+
+.future-all{
+  width: 100%;
+  height: 765px;
+  margin-bottom: 80px;
+}
+
+.future-title{
+  margin-bottom: 24px;
+}
+
+.future-des{
+  margin-bottom: 32px;
+}
+
+.futures{
+  display: flex;
+  justify-content: space-around;
+  gap: 56px;
+  margin-bottom: 32px;
+}
+
+.futures-item{
+  width: 410px;
+  height: 325px;
+  padding: 32px;
+  border: none;
+  border-radius: 16px;
+}
+
+.future-btn{
+  padding: 11px 20px;
+  border: none;
+  
+  border-radius: 8px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.futures-item > img{
+  margin-bottom: 24px;
+}
+
+.futures-item > h4{
+  margin-bottom: 12px;
+}
+
+.futures-item > p{
+  margin-bottom: 24px;
+}
+
+.futures-motive{
+  padding: 48px 24px;
+  background-color: #ffffff;
+  border: .5px solid #cdd0d4;
+  border-radius: 16px;
+}
+
+.futures-des{
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+}
+
+.futures-des > p{
+  margin-bottom: 12px;
+}
+
+/* future end */
